@@ -38,7 +38,6 @@ footer {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   padding: 25px;
-  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -235,7 +234,7 @@ justify-content: center;
 
 /* --------------------BREAK -------------------------  */
 
-@media (min-width: 460px) {
+@media (min-width: 600px) {
 
 header {
   display: flex;
@@ -269,7 +268,7 @@ background: #Fafafa;
 -webkit-border-radius: 15px;
 -moz-border-radius: 15px;
 border-radius: 15px;
-border: #ebebeb solid 8px;
+border: #FFB712 solid 8px;
 margin: 0;
 margin-left: 50px;
 }
@@ -295,7 +294,7 @@ content: '';
 position: absolute;
 border-style: solid;
 border-width: 42px 48px 41px 0;
-border-color: transparent #ebebeb;
+border-color: transparent #FFB712;
 display: block;
 width: 0;
 z-index: 0;
